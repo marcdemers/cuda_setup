@@ -5,6 +5,12 @@ I am tired of always having to deal with conflicting installation of binaries, s
 
 This is just a condensed version of what is available in the specific documentation.
 
+# Removing nvidia toolkit:
+```
+    sudo apt-get remove --purge nvidia\*
+    sudo apt-get autoremove
+```
+
 # Setting environment variables
 ```
 export CUDA_HOME=/usr/local/cuda-10.0 
